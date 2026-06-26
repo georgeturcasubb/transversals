@@ -1,0 +1,159 @@
+{
+  "box_diffset_size": 25,
+  "box_fibre_sizes": {
+    "(0, 0)": 1,
+    "(0, 1)": 2,
+    "(0, 2)": 2,
+    "(1, 0)": 2,
+    "(1, 1)": 4,
+    "(1, 2)": 4,
+    "(2, 0)": 2,
+    "(2, 1)": 4,
+    "(2, 2)": 4
+  },
+  "box_line_sizes": [
+    2,
+    2,
+    4,
+    4
+  ],
+  "box_transversal": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "canonical_result": "experiments/results/ws0001-c3-plane-counterexample.json",
+  "canonical_result_sha256": "232bea990028d1ca05a3b45b67bfaf708bd5ad7dfb8754a959d5e40ab4bd5bda",
+  "conclusion": {
+    "limit_23_absent": true,
+    "limit_25_present": true,
+    "odd_cardinality_excludes_24": true,
+    "verified_delta": 25
+  },
+  "normalized_transversal_count": 43046721,
+  "purpose": "independent copy-on-recursion verification for C-WS0001-013",
+  "script": "experiments/python/ws0001_c3_plane_certificate_verify.py",
+  "threshold_searches": [
+    {
+      "exists": false,
+      "limit": 17,
+      "nodes_visited": 1306,
+      "solution_diffset_size": null,
+      "solution_fibre_sizes": null,
+      "solution_h_coordinates": null
+    },
+    {
+      "exists": false,
+      "limit": 19,
+      "nodes_visited": 5842,
+      "solution_diffset_size": null,
+      "solution_fibre_sizes": null,
+      "solution_h_coordinates": null
+    },
+    {
+      "exists": false,
+      "limit": 21,
+      "nodes_visited": 13132,
+      "solution_diffset_size": null,
+      "solution_fibre_sizes": null,
+      "solution_h_coordinates": null
+    },
+    {
+      "exists": false,
+      "limit": 23,
+      "nodes_visited": 27712,
+      "solution_diffset_size": null,
+      "solution_fibre_sizes": null,
+      "solution_h_coordinates": null
+    },
+    {
+      "exists": true,
+      "limit": 25,
+      "nodes_visited": 9,
+      "solution_diffset_size": 25,
+      "solution_fibre_sizes": {
+        "(0, 0)": 1,
+        "(0, 1)": 2,
+        "(0, 2)": 2,
+        "(1, 0)": 2,
+        "(1, 1)": 4,
+        "(1, 2)": 4,
+        "(2, 0)": 2,
+        "(2, 1)": 4,
+        "(2, 2)": 4
+      },
+      "solution_h_coordinates": {
+        "(0, 0)": [
+          0,
+          0
+        ],
+        "(0, 1)": [
+          0,
+          0
+        ],
+        "(0, 2)": [
+          0,
+          0
+        ],
+        "(1, 0)": [
+          0,
+          0
+        ],
+        "(1, 1)": [
+          0,
+          0
+        ],
+        "(1, 2)": [
+          0,
+          0
+        ],
+        "(2, 0)": [
+          0,
+          0
+        ],
+        "(2, 1)": [
+          0,
+          0
+        ],
+        "(2, 2)": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "threshold_summary_matches_canonical": true
+}

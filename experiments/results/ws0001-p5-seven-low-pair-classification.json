@@ -1,0 +1,541 @@
+{
+  "case": {
+    "affine_lift_normalization": "f(0,0)=f(1,0)=f(0,1)=0",
+    "antipodal_pair_representatives": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "gl2_order": 480,
+    "group": "(Z/25Z)^2",
+    "low_direction_limit": 3,
+    "prime": 5,
+    "quotient": "C5 x C5",
+    "subgroup": "5G"
+  },
+  "classification": {
+    "antipodal_pairs_requested": 7,
+    "any_node_limit_timeout": false,
+    "any_representative_exists": false,
+    "interpretation": "If all 7-pair orbit representatives are infeasible without node-limit timeout, then no normalized section over F_5^2 has at least 14 oriented nonzero directions u with |F_u|<=3.",
+    "orbit_count": 7,
+    "orbits_checked": 7
+  },
+  "orbit_results": [
+    {
+      "orbit_index": 0,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 1,
+          "(1, 1)": 1,
+          "(1, 2)": 1,
+          "(1, 3)": 1,
+          "(1, 4)": 1
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 2776,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    },
+    {
+      "orbit_index": 1,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 2,
+          "(1, 1)": 1,
+          "(1, 2)": 1,
+          "(1, 3)": 1,
+          "(1, 4)": 0
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 3059,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    },
+    {
+      "orbit_index": 2,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 1,
+          "(1, 1)": 1,
+          "(1, 2)": 1,
+          "(1, 3)": 1,
+          "(1, 4)": 1
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        10
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 2968,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    },
+    {
+      "orbit_index": 3,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 2,
+          "(1, 1)": 1,
+          "(1, 2)": 1,
+          "(1, 3)": 1,
+          "(1, 4)": 0
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 3954,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    },
+    {
+      "orbit_index": 4,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 2,
+          "(1, 1)": 2,
+          "(1, 2)": 1,
+          "(1, 3)": 0,
+          "(1, 4)": 0
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 4323,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    },
+    {
+      "orbit_index": 5,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 2,
+          "(1, 1)": 1,
+          "(1, 2)": 1,
+          "(1, 3)": 0,
+          "(1, 4)": 1
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        10
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 4001,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    },
+    {
+      "orbit_index": 6,
+      "profile": {
+        "pair_reps": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "projective_count_partition": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "projective_line_counts": {
+          "(0, 1)": 2,
+          "(1, 0)": 1,
+          "(1, 1)": 1,
+          "(1, 2)": 1,
+          "(1, 3)": 1,
+          "(1, 4)": 1
+        }
+      },
+      "representative_pair_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        10
+      ],
+      "search": {
+        "exists": false,
+        "fibre_sizes_at_solution": null,
+        "nodes": 3936,
+        "solution": null,
+        "timed_out_by_node_limit": false
+      }
+    }
+  ],
+  "script": "experiments/python/ws0001_p5_low_direction_classification.py"
+}
