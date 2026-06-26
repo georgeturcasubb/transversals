@@ -12,7 +12,7 @@ The computations support the two claims stated in the paper:
 
 ## What is included
 
-The repository is intentionally small.  It should contain only:
+This repository contains
 
 ```text
 experiments/
