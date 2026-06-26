@@ -9,7 +9,6 @@ The computations support the two claims stated in the paper:
 - for `p = 3`, the square-plane value is `delta((Z/9Z)^2, 3(Z/9Z)^2) = 25`;
 - for `p = 5`, the square-plane value is `delta((Z/25Z)^2, 5(Z/25Z)^2) = 81`.
 
-No computational certificate for `p = 7` is claimed here.
 
 ## What is included
 
