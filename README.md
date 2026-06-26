@@ -139,8 +139,8 @@ still intended to be a finite foreground Python check on an ordinary machine.
 The recorded run checked seven projective low-pair orbits and used 25017 search
 nodes in total.
 
-## Provenance
+## Disclaimer on the use of AI
 
-This repository was prepared with the aid of Codex and model GPT-5.5.  The
+This repository was prepared with the aid of OpenAI's Codex and model GPT-5.5.  The
 mathematical responsibility for the claims, scripts, and interpretation remains
 with the paper authors.
