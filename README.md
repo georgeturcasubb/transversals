@@ -38,9 +38,7 @@ weighted-profile artifact can be reproduced exactly.
 
 ## Requirements
 
-Use Python 3.  The scripts use only the Python standard library; no Sage,
-Magma, PARI/GP, or Python package installation is needed for these reviewer
-checks.
+Use Python 3.  The scripts use only the Python standard library;
 
 The commands below should be run from the repository root.
 
